@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@google-cloud/storage": "^5.13.1",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3"
   }
 }
