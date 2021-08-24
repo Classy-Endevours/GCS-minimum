@@ -9,6 +9,13 @@ To use the wrapper method you just need 3 parameters. Following is the details f
 - callback - This callback can be used as parallel processing for the outer methods
 - encoding [optional] - Set the encoding for the file. Default value is base64
 
+#### Environment
+This project needs 4 environment variable. Refer `.env.sample`
+- GOOGLE_JSON_PATH - put the file in root directory
+- BUCKET_NAME
+- PROJECT_ID
+- FILE_NAME - Customize based on your need
+
 #### Example
 You can find the example in the `index.js` of this project. To use the method, first one needs to import it inside the file. 
 After importing it,
